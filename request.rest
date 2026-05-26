@@ -1,0 +1,28 @@
+### Get all products
+GET http://localhost:3000/products
+
+### Get one product
+GET http://localhost:3000/products/1
+
+### Create valid product
+POST http://localhost:3000/products
+Content-Type: application/json
+
+{
+  "name": "Monitor",
+  "price": 199.99,
+  "quantity": 1
+}
+
+### Get missing product
+GET http://localhost:3000/products/999
+
+### Create invalid product
+POST http://localhost:3000/products
+Content-Type: application/json
+
+{
+  "name": "",
+  "price": "abc",
+  "quantity": 1
+}
