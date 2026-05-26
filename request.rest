@@ -26,3 +26,23 @@ Content-Type: application/json
   "price": "abc",
   "quantity": 1
 }
+
+### Update product price
+PATCH http://localhost:3000/products/1
+Content-Type: application/json
+
+{
+  "price": 69.69
+}
+
+### Update product name and quantity
+PATCH http://localhost:3000/products/2
+Content-Type: application/json
+
+{
+  "name": "Gaming Mouse",
+  "quantity": 5
+}
+
+### Delete product
+DELETE http://localhost:3000/products/2
