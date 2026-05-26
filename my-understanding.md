@@ -2,9 +2,9 @@
 
 ## Submission Links
 
-https://www.loom.com/share/fa9a99384458472084b1a574472bb8e8
+
 **Loom Video (must be set to public — anyone with the link):**
-[paste your Loom video URL here]
+[[paste your Loom video URL here]](https://www.loom.com/share/fa9a99384458472084b1a574472bb8e8)
 
 ---
 
