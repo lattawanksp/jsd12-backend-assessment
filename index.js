@@ -131,6 +131,7 @@ app.use((req, res) => {
   res.status(404).json({ message: "Route not found" });
 });
 
+//error-handling middleware
 app.use((err, req, res, next) => {
   const statusCode = err.status || 500;
 
@@ -139,6 +140,7 @@ app.use((err, req, res, next) => {
   });
 });
 
+//
 app.listen(PORT, () => {
   console.log(`Server is listening on port ${PORT} ✅`);
 });

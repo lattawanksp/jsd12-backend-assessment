@@ -13,7 +13,7 @@ POST http://localhost:3000/products
 Content-Type: application/json
 
 {
-  "name": "Monitor",
+  "name": "Camera",
   "price": 199.99,
   "quantity": 1
 }
@@ -36,7 +36,7 @@ PATCH http://localhost:3000/products/1
 Content-Type: application/json
 
 {
-  "price": 69.69
+  "price": 99999
 }
 
 ### Update product name and quantity
