@@ -4,6 +4,10 @@ GET http://localhost:3000/products
 ### Get one product
 GET http://localhost:3000/products/1
 
+
+### Filter products by name
+GET http://localhost:3000/products?name=mouse
+
 ### Create valid product
 POST http://localhost:3000/products
 Content-Type: application/json
@@ -46,3 +50,7 @@ Content-Type: application/json
 
 ### Delete product
 DELETE http://localhost:3000/products/2
+
+### Route not found
+GET http://localhost:3000/hello
+
